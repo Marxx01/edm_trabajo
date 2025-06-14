@@ -1,0 +1,10 @@
+https://valencia.opendatasoft.com/explore/dataset/barris-policials-barrios-policiales/table/
+https://valencia.opendatasoft.com/explore/dataset/majors-mayores/information/
+https://valencia.opendatasoft.com/explore/dataset/dona-mujer/information/?sort=-equipamien
+https://valencia.opendatasoft.com/explore/dataset/malaltia-mental-enfermedad-mental/table/
+https://valencia.opendatasoft.com/explore/dataset/migrants-migrantes/table/
+https://valencia.opendatasoft.com/explore/dataset/hospitales/table/
+https://valencia.opendatasoft.com/explore/dataset/discapacitat-fisica-discapacidad-fisica/table/
+https://valencia.opendatasoft.com/explore/dataset/discapacitat-sensorial-discapacidad-sensorial/table/
+https://valencia.opendatasoft.com/explore/dataset/discapacitat-intellectual-discapacidad-intelectual/table/
+https://valencia.opendatasoft.com/explore/dataset/vulnerabilidad-por-barrios/table/
