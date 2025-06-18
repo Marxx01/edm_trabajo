@@ -117,6 +117,7 @@ if seccion == "🗺️ Mapas de servicios":
         )
         nearest = df.loc[df.dist_m.idxmin()]
 
+        nombre= nearest.Nombre if 'Nombre' in df.columns else nearest.equipamien
         # 3b. Pintar marcador del clic y del hospital
         folium.Marker(
             [lat, lon],
@@ -127,10 +128,10 @@ if seccion == "🗺️ Mapas de servicios":
         folium.Marker(
             [nearest.LATITUD, nearest.LONGITUD],
             icon=folium.Icon(color="green", icon="info-sign"),
-            popup=f"{nearest.Nombre} ({nearest.dist_m:,.0f} m)",
+            popup=f"{nombre} ({nearest.dist_m:,.0f} m)",
         ).add_to(mapa)
 
-        st.success(f"Centro más cercano: {nearest.Nombre} – {nearest.dist_m:,.0f} m")
+        st.success(f"Centro más cercano: {nombre} – {nearest.dist_m:,.0f} m")
 
 
     st.markdown("### 🌍 Vista del mapa")
